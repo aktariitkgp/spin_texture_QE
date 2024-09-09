@@ -1,0 +1,3 @@
+These scripts for parsing the Quantum espresso band data file and the spin
+expectation data file.
+Using these parse data spin texture can be plotted for individual band
