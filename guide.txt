@@ -1,0 +1,40 @@
+Step-by-Step Guide to Plot Spin-Texture Using QE Data
+1. Parse bands data (.dat) will be written in the format of kx ky kz nbnd_1 nbnd_2 ……[
+in the nbnd column there will be energy].
+band_data_parser.ipynb
+2. Parse spin data(.dat.1,.dat.2,.dat.3) will be written in the format of kx ky kz nbnd_1
+nbnd_2 ……[ in the nbnd column there will be expectation value of spin operator].
+band_data_parser.ipynb
+3. To plot the individual band's spin texture make an Excel file of kx, ky,sx,sy and sz for
+a particular band from the previously generated .csv file.
+4. To plot the spin texture of individual bands with sz as background and sx,sy as vector
+arrow in the kx-ky plane.
+background_sz_arrow_sx_sy.ipynb
+5. To plot the spin texture of individual bands with sz as the colour of the (sx,sy) vector
+arrow in the kx-ky plane.
+spin_texture_with_sz_color_arrow_sx_sy.ipynb
+6. To make the bands parse data [ E-Ef]
+fermi_energy_subtracted_band_data.ipynb
+7. To make the bands parse data [ E-Ef] and up to three-digit precision
+band_data_fermi_subtracted_with_three_digit_prec.ipynb
+8. To find the considerable bands that are cutting an iso-energy surface with the whole
+kx,ky range and plot them.
+isosurface_band_plot_for_fix_kx_ky.ipynb
+9. To find the considerable bands which are cutting an iso-energy surface with varying
+kx,ky range.
+isosurface_band_plot_changing_kx_ky_range.ipynb10. To get the data of bands that are cutting the iso-energy surface and the plot
+crssing_band_filtered.ipynb
+11. To get the kx, ky value where particular bands are crossing the iso-energy surface and
+with a data file [ kx_nbnd_ ky_nbnd_ nbnd_energy]
+kx_ky_data_of_each_particular_interested_band.ipynb
+12. Extract the sx,sy and sz values of a particular band three .csv file for three spin
+projection.
+to_extract_partcular_band.ipynb
+13. Find the sx,sy,sz value of the particular band at those kx,ky point where bands are
+crossing the isosurface.
+collecting_intersecting_band_kx_ky_and_s.ipynb
+14. Make an excel with the kx,ky,s file from the previous .csv data file
+15. To plot them separately
+spin-texture_plot_for_two_band.ipynb
+16. To plot the spin-texture combined
+spin-texture_plot.ipynb
