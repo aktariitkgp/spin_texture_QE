@@ -1,0 +1,18 @@
+#1st step
+
+git init
+
+#2nd step
+
+git add newfile.txt
+
+#3rd step
+
+git commit -m "Added newfile.txt"
+
+
+#4th step
+
+git remote add origin https://github.com/yourusername/your-repository.git
+git branch -M main
+git push -u origin main
